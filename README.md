@@ -1,0 +1,1 @@
+This script estimates prediction accuracy from given genotype and phenotype files using Linear Regression and Ridge Regression models. It is ideal for genomic prediction tasks such as evaluating genetic values or breeding value estimates.
