@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV, LarsCV
 from sklearn.model_selection import train_test_split
 
+# Fill in genotype with data file
 trait = "trait_name"
 G = read_plink1_bin("genotype.bed", "genotype.bim", "genotype.fam", verbose=False)
 geno = G.values
